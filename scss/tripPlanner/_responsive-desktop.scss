@@ -254,6 +254,14 @@
             }
         }
     }
+    @mixin icon(){
+        color: white;
+        font-size: 24px;
+        background: var(--primary);
+        width: 44px;
+        height: 44px;
+        border-radius: 6px;
+    }
     .service{
         background: var(--primary);
         .container{
@@ -268,13 +276,31 @@
                 align-items: center;
                 padding: 25px 28px 15px 28px;
                 i{
-                    color: white;
-                    font-size: 24px;
-                    background: var(--primary);
-                    width: 44px;
-                    height: 44px;
-                    border-radius: 6px;
+                    @include icon();
                 }
+            }
+        }
+    }
+    .feature{
+        .container{
+            h1{text-align: center;}
+            &>div{
+                flex-wrap: wrap;
+                row-gap: 56px;
+            }
+            .feature-item{
+                width: 465px;
+                &>:nth-child(1){
+                    justify-content: flex-start;
+                }
+                i{
+                    @include icon();
+                    margin-right: 16px;
+                }
+                &:nth-child(1) i{background: #FFD166;}
+                &:nth-child(2) i{background: #58C27D;}
+                &:nth-child(3) i{background: #FF6370;}
+                &:nth-child(4) i{background: var(--primary);}
             }
         }
     }

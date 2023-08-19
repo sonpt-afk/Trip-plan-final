@@ -164,5 +164,37 @@
                 }
             }
         }
+        .feature{
+            .container{
+                h1{
+                    font-size: 24px;
+                    line-height: 30px;
+                    text-align: left;
+                }
+                &>div{
+                    margin-top: 30px;
+                    row-gap: 24px;
+                }
+                .feature-item{
+                    width: 100%;
+                    i{
+                        width: 38px;
+                        height: 38px;
+                        font-size: 24px;
+                    }
+                    h3{
+                        font-size: 16px;
+                        line-height: 24px;
+                    }
+                    .mt-20{
+                        margin-top: 16px;
+                    }
+                    p{
+                        font-size: 12px;
+                        line-height: 18px;
+                    }
+                }
+            }
+        }
     }
 }
