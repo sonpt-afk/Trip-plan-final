@@ -304,4 +304,21 @@
             }
         }
     }
+    .go-plan{
+        background: rgba(251, 246, 199, 0.80);
+        .container{
+            padding: 0;
+            padding-top: 100px;
+            .block-left{
+                width: 529px;
+            }
+            .block-right{
+                width: 440px;
+                img{
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
 }

@@ -196,5 +196,27 @@
                 }
             }
         }
+        .go-plan{
+            .container{
+                padding: 20px;
+                .block-left{
+                    width: 100%;
+                    h1{
+                        font-size: 24px;
+                        line-height: 36px;
+                    }
+                    .mt-65{
+                        margin-top: 0;
+                    }
+                    .mt-25{
+                        margin-top: 12px;
+                    }
+                }
+                .block-right{
+                    margin-top: 43px;
+                    width: 100%;
+                }
+            }
+        }
     }
 }
