@@ -218,5 +218,26 @@
                 }
             }
         }
+        .footer{
+            .socials{
+                margin: 24px 0;
+            }
+            .topic{
+                width: 100%;
+                p{
+                    margin-top: 14px;
+                }
+                p:first-of-type{
+                    margin-top: 20px;
+                }
+            }
+            .sub-footer{
+                padding-top: 26px;
+                &>p{
+                    text-align: center;
+                    width: 100%;
+                }
+            }
+        }
     }
 }

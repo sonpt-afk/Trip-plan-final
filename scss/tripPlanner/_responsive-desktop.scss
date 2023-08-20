@@ -321,4 +321,57 @@
             }
         }
     }
+    .footer{
+        .subcrible-email{
+            width: 255px;
+            height: 50px;
+            border-radius: 24px;
+            border: 2px solid #E6E8EC;
+            padding: 8px 8px 8px 26px;
+            i{
+                @include icon();
+                @include circle(33px);
+            }
+            input{
+                height: 100%;
+                border: none;
+                outline: none;
+            }
+        }
+        .socials{
+            i{
+                font-size: 24px;
+                margin: 0 14px;
+            }
+        }
+        .block-left{
+            width: 268px;
+            a{
+                justify-content: flex-start;
+                .logo{
+                    @include shape(40px, 40px, 12px);
+                    background: var(--primary);
+                    svg{
+                        fill: white;
+                    }
+                    margin-right: 10px;
+                }
+            }
+        }
+        .topic{
+            p{
+                margin-top: 14px;
+                color: #777E90;
+            }
+            p:first-of-type{
+                margin-top: 20px;
+            }
+        }
+        .sub-footer{
+            padding-top: 40px;
+           &>p{
+            color:  #B1B5C3;
+           } 
+        }
+    }
 }
