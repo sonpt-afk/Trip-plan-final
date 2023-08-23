@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Merriweather:wght@700&family=Orbitron:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black    ; */
+}
+.menu{
+    width: 100%;
+    height: 100px;
+    padding:30px 60px;
+}
+.menu-main{
+position: relative;
+height: 40px;
+width:100%;
+display: flex;
+justify-content: space-evenly;
+
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    background-color: #3B71FE;
+    position: absolute;
+    left: 0px;
+    border-radius: 12px ;
+    padding:8px 10px;
+    display: flex;
+}
+.logo .logo-text{
+    color: #000;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 800;
+width: 65px;
+height:25px;
+line-height: 24.5px;
+text-align: center;
+margin-left: 15px
+}
+.logo img{
+    width: 20.24px;
+    height: 24.17px;
+}
+#nav-list{
+    list-style-type:none;
+    display: flex;
+    justify-content: space-between;
+    width:250px;
+    height: 24px;
+}
+
+
+#nav-list li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size:16px;
+    line-height: 24px;
+}
+
+.second-nav-bar{
+    position: absolute;
+    right:60px;
+    
+}
+#second-nav-list{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 169px;
+    height:32px
+}
+#second-nav-list li a{
+    text-decoration: none;
+    color: #656870;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    width: 28px;
+    height:21px
+}
+.ti-bell{
+    color: #656870;
+    cursor: pointer;
+   
+}
+.rectangle{
+    width:1px;
+    height:32px;
+    opacity: 50%;
+    border: 1px solid #656870;
+}
+.content{
+    width: 100%;
+    display: flex;
+    gap: 34px;
+
+}
+
+.center-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.between-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-content{
+    height: 645px;
+}
+#right-content-img{
+    width: 100%;  
+    object-fit: cover;
+    height: 645px;
+    bottom: 0;
+}
+#logo-pic,#profile-pic{
+   cursor: pointer;
+}
+
+.left-main-content{
+    width:502px;
+    margin-left: 135px;
+    position: relative;
+}
+.main-content-header {
+}
+#header-text{
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 77px;
+}
+#easy{
+    color:#F5B318;
+}
+.main-content-caption{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #656870;
+    margin-top: 30px;
+    max-width: 457px;
+
+}
+
+
+#hint{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin: auto 0;
+}
+.search-input{
+    width:317px;
+    height:68px;
+    border-radius: 31px;
+    padding: 8px 8px 8px 44px;
+    box-shadow: #656870;
+    display: flex;
+    margin-top:48px;
+    position: relative;
+    box-shadow: -16px 22px 42px 0 #dbdee7 ;
+}
+.search-button {
+    width: 52px;
+    height:52px;
+    border-radius: 30px;
+    padding:8px;
+    background-color: #3B71FE;
+    cursor:pointer;
+    position:absolute;
+    right:8px;
+}
+.ti-arrow-right {
+    color: #fff;
+    width:36px;
+    height:36px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow-img{
+    position:absolute;
+    bottom:60px;
+    left: -135px;
+}
+#arrow{
+    z-index: 1;
+
+}
+.review{
+    width:281px;
+    height: 95px;
+    margin-top: 70px;
+    
+}
+.review-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 19px
+}
+.right-review-content{
+    width: 150px;
+    border-left: 1px solid #E6E8EC;
+    padding-left: 14px;
+}
+.review-star{
+}
+
+#review-caption{
+    height:24px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777E90;
+    
+}
+#review-rating{
+    width: 105px;
+    height: 36px;
+    bottom:25px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color:#141416
+}
+.review-mark{
+    width:37px;
+    height: 37px;
+    
+
+}
+#mark{
+    color:#3B71FE;
+    font-family: 'Inter';
+    font-weight:700;
+    font-size: 24px;
+    line-height: 36px;
+}
+#number-review-mark-caption{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14.52px;
+
+}
+#review-mark-caption{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14.52px;
+
+}
+.review-mark-captions{
+    width:135px;
+    height:15px;
+}
+
+
+
+/* css responsive */
+

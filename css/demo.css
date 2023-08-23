@@ -1,0 +1,30 @@
+#logo {
+  width: 100px;
+  height: 100px;
+}
+
+#logo-mobile {
+  width: 10px;
+  height: 10px;
+}
+
+body {
+  background: #000;
+  color: red;
+}
+body .title-nodemy {
+  color: #ccc;
+}
+body .product {
+  color: #ccc;
+}
+body button, body .btn-sale {
+  border: none;
+  outline: none;
+  background: red;
+}
+body .btn-newyear {
+  border: none;
+  outline: none;
+  background: blue;
+}/*# sourceMappingURL=demo.css.map */

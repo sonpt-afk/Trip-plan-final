@@ -1,0 +1,37 @@
+@import 'child1.scss';
+@import 'child2.scss';
+
+$primary: #ccc;
+$size-default: 10px;
+$company: 'nodemy';
+body{
+    background: #000;
+    color: red;
+
+    .title-#{$company}{
+        color: $primary;
+    }
+    .product{
+        color: $primary;
+    }
+    .sale-#{$company}-product{
+
+    }
+
+    @mixin button-type($bgBtn){
+        border:none;
+        outline:none;
+        background: $bgBtn;
+    }
+    button{
+        @include button-type(red);
+    }
+
+    .btn-newyear{
+        @include button-type(blue);
+
+    }
+    .btn-sale{
+        @extend button;
+    }
+}
