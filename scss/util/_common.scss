@@ -9,17 +9,20 @@
         text-decoration: none;
         margin: 0;
     }
+    --gray-1: #23262F;
+    --gray-2: #353945;
+    --gray-5: #E6E8EC;
 }
 
 [data-bs-theme=light]{
     p,span,h1,h2,h3,h4{
-        color: #353945;
+        color: var(--gray-2);
     }
 }
 
 [data-bs-theme=dark]{
     p,span,h1,h2,h3,h4{
-        color: #E6E8EC;
+        color: var(--gray-5);
     }
 }
 @mixin createFont($selector, $fz: null, $lineHeight: null, $fw: null){
