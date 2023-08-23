@@ -29,6 +29,7 @@
         }
     }
     .navbar{
+        z-index: 2;
         padding: 30px 60px;
         .logo{
             padding: 8px 10px;
@@ -166,7 +167,7 @@
                     p, span{color: white;}
                     background: var(--primary);
                     button{
-                        color: inherit;
+                        color: var(--gray-1);
                         border-radius: 10px;
                         padding: 8px 10px 8px 16px;
                         background: white;
@@ -177,9 +178,11 @@
                 }
                 &>div:nth-child(2){
                     background: white;
+                    color: var(--gray-1);
                     font-size: 26px;
                     span{
                         font-size: 14px;
+                        color: var(--gray-1);
                     }
                 }
             }
@@ -372,6 +375,56 @@
            &>p{
             color:  #B1B5C3;
            } 
+        }
+    }
+}
+
+[data-bs-theme=dark].nodemy{
+    #navbarSupportedContent{
+        background: var(--dark) !important;
+    }
+    .partner{
+        background: var(--gray-1);
+    }
+    .trip-planning{
+        .card-item{
+            background: #22372B;
+        }
+    }
+    .book-steps{
+        .create-trip{
+            background: var(--gray-1);
+        }
+    }
+    .ez-trip{
+        background: var(--gray-1);
+        .card-column{
+            background: var(--gray-2);
+        }
+        .easy-card{
+            background: var(--gray-2);
+        }
+    }
+    .how-work{
+        .block-right i{
+            background: var(--gray-1);
+        }
+    }
+    .service{
+        background: rgba(18, 34, 76, 0.30);
+        .card-column{
+            background: var(--gray-1);
+        }
+    }
+    .go-plan{
+        background: rgba(35, 38, 47, 0.70);
+    }
+    .footer{
+        .subcrible-email{
+            background: var(--dark);
+            input{
+                background: var(--dark);
+            }
         }
     }
 }
